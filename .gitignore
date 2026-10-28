@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# 前端 Vue
+projectMannager/node_modules/
+projectMannager/dist/
+projectMannager/.vite/
+
+# 后端 .NET
+projectMannagerBE/**/bin/
+projectMannagerBE/**/obj/
+projectMannagerBE/**/logs/
+
+# 通用
+*.log
+.idea/
+appsettings.Development.json
+.idea/
+appsettings.Development.json

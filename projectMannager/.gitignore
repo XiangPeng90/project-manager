@@ -1,0 +1,45 @@
+# ========== macOS ==========
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ========== VS Code ==========
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ========== 前端（Vue / Vite） ==========
+projectMannager/node_modules/
+projectMannager/dist/
+projectMannager/.vite/
+projectMannager/node_modules/.cache/
+projectMannager/npm-debug.log*
+projectMannager/yarn-debug.log*
+projectMannager/yarn-error.log*
+projectMannager/pnpm-debug.log*
+projectMannager/.env.local
+projectMannager/.env.*.local
+
+# ========== 后端（.NET 8） ==========
+projectMannagerBE/**/bin/
+projectMannagerBE/**/obj/
+projectMannagerBE/**/logs/
+projectMannagerBE/**/*.user
+projectMannagerBE/**/*.suo
+projectMannagerBE/**/.vs/
+projectMannagerBE/**/appsettings.Development.json
+projectMannagerBE/**/launchSettings.json
+projectMannagerBE/**/*.db
+projectMannagerBE/**/*.db-shm
+projectMannagerBE/**/*.db-wal
+
+# ========== 测试与覆盖率 ==========
+projectMannagerBE/**/TestResults/
+projectMannagerBE/**/coverage*.json
+projectMannagerBE/**/coverage*.xml
+
+# ========== 通用 ==========
+*.log
+*.tmp
+*.swp
+*~
